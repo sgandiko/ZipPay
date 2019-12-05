@@ -14,9 +14,15 @@ services:
       ACCEPT_EULA: Y
       SA_PASSWORD: "BigPassw0rd"
     volumes:
-      - ./data/mssql:/var/opt/mssql
+      - mssqlvolume:/var/opt/mssql1
+      - ./data/mssql1:/var/opt/mssql1
     ports:
       - '1422:1433'
     expose:
       - 1422
-    
+  
+volumes:
+  mssqlvolume:
+
+networks:
+  overlay:
