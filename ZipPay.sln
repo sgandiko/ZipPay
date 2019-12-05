@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipPay.API", "ZipPay.API\ZipPay.API.csproj", "{F9CDF07D-CFF8-4FEC-B037-CA082580D5E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipPay.Domain", "ZipPay.Domain\ZipPay.Domain.csproj", "{34AFF3A1-1EB8-4C7E-A7E8-46B6749230BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipPay.Infrastructure", "ZipPay.Infrastructure\ZipPay.Infrastructure.csproj", "{D541F627-20DC-46A9-86DF-E8AA3E89AF6E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CE123D23-982C-48FA-B933-F8718E20E01D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9CDF07D-CFF8-4FEC-B037-CA082580D5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CDF07D-CFF8-4FEC-B037-CA082580D5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CDF07D-CFF8-4FEC-B037-CA082580D5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CDF07D-CFF8-4FEC-B037-CA082580D5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AFF3A1-1EB8-4C7E-A7E8-46B6749230BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AFF3A1-1EB8-4C7E-A7E8-46B6749230BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AFF3A1-1EB8-4C7E-A7E8-46B6749230BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AFF3A1-1EB8-4C7E-A7E8-46B6749230BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D541F627-20DC-46A9-86DF-E8AA3E89AF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D541F627-20DC-46A9-86DF-E8AA3E89AF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D541F627-20DC-46A9-86DF-E8AA3E89AF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D541F627-20DC-46A9-86DF-E8AA3E89AF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE123D23-982C-48FA-B933-F8718E20E01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE123D23-982C-48FA-B933-F8718E20E01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE123D23-982C-48FA-B933-F8718E20E01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE123D23-982C-48FA-B933-F8718E20E01D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E349E892-A5B5-41B7-A083-C91F2C42E939}
+	EndGlobalSection
+EndGlobal

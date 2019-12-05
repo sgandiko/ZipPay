@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  zippay.api:
+    image: ${DOCKER_REGISTRY-}zippayapi
+    build:
+      context: .
+      dockerfile: ZipPay.API/Dockerfile
+
+  ZipSqlServer:
+    image: mcr.microsoft.com/mssql/server:2019-GA-ubuntu-16.04
+    hostname: 'ZipSqlServer'
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: "BigPassw0rd"
+    volumes:
+      - ./data/mssql:/var/opt/mssql
+    ports:
+      - '1422:1433'
+    expose:
+      - 1422
+    
